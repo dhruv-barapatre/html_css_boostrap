@@ -1,0 +1,363 @@
+*
+{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar
+{
+    background-color: #EB5757;
+    height: 100px;
+    display:flex ;
+    padding: 5px 10%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navbar img
+{
+    height: 50px;
+}
+.navbar ul
+{
+    display: flex;
+}
+.navbar ul li
+{
+    padding: 10px 20px;
+}
+.navbar ul li a
+{
+    color:white;
+    font-family: 'Sen', sans-serif;
+}
+.img
+{
+    background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg');
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 10%;
+    position: relative;
+}
+.img .text
+{
+    width: 30%;
+    margin-top: 10%;
+}
+.img h1
+{
+    font-family: 'Sen', sans-serif;
+    font-size: 62px;
+    line-height: 74px;
+    color: white;
+    margin-bottom: 30px;
+}
+.img p
+{
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    font-family: 'Sen', sans-serif;
+}
+.img a
+{
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Sen', sans-serif;
+    line-height: 24px;
+    display: inline;
+}
+.center 
+{
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.center .left
+{
+    width: 100%;
+}
+.center .left span 
+{
+    font-size: 20px;
+}
+.center .left h1
+{
+    font-size: 40px;
+}
+.center .right p
+{
+    width:100%;
+    font-size: 25px;
+    font-family: 'Sen', sans-serif; 
+    font-weight: 400;
+}
+.centers 
+{
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+.centers .a
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #333333;
+    padding: 40px;
+    position: relative;
+}
+.centers .a span,.centers .a h1
+{
+    color: white;
+    font-family: 'Sen', sans-serif;
+}
+.centers .a h1 
+{
+    font-family: 'Sen', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 35%;
+}
+
+.image
+{
+    height: 500px;
+    width: 100%;
+    background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 10%;
+    position: relative;
+}
+.centers p
+{
+    width: 300px;
+
+}
+.image .text
+{
+    width: 30%;
+    margin-top: 5%;
+    float: right;
+    position: static;
+}
+.image h1
+{
+    font-family: 'Sen', sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    margin-bottom: 20px;
+}
+.image p
+{
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    font-family: 'Sen', sans-serif;
+}
+.image a
+{
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Sen', sans-serif;
+    line-height: 24px;
+    display: inline;
+}
+.open
+{
+    padding: 10px 10%;
+    margin-top: 20px;
+}
+.open span
+{
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+}
+.open h1
+{
+    font-size: 50px;
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+}
+.t-box
+{
+    display: flex;
+    padding: 10px 10%;
+    justify-content: space-between;
+    position: relative;
+}
+.t-box .first
+{
+    height: 400px;
+}
+.t-box .a
+{
+    height: 460px;
+    width: 350px;
+    border: 1px solid transparent;
+}
+.f-box
+{
+        background-image: url('https://assets-global.website-files.com/5e853c3383474026e43f2c78/5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.s-box
+{
+        background-image: url( 'https://assets-global.website-files.com/5e853c3383474026e43f2c78/5e8542c1248e59128e08e3e9_ryan-holloway-JyDmUaXMib4-unsplash.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.h-box
+{
+        background-image: url( 'https://assets-global.website-files.com/5e853c3383474026e43f2c78/5e85425605cae11f20d46181_denisse-leon-J7CjWufjmg4-unsplash.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.t-box h3
+{
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    color: #222222;
+    font-size: 21px;
+    font-family: 'Sen', sans-serif;
+}
+.t-box span
+{
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    /* margin-bottom: 4000px; */
+    color: #222222;
+    font-family: 'Sen', sans-serif;
+    font-size: 15px;
+}
+.t-box .text
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.t-box  a
+{
+    position: absolute;
+    top: 60px;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    background-color: #eb5757;
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+}
+.button a
+{
+    background-color: #eb5757;
+    color: white;
+    font-family: 'Sen', sans-serif;
+    font-size: 20px;
+    padding: 7px 20px;
+    margin-top  : 20px;
+    display: flex;
+    width: 200px;
+    border-radius: 5px;
+}
+.shop
+{
+    height: 620px;
+    border: 1px solid black;
+    background-color: #222222;
+    width: 40%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 45px;
+    position: relative;
+    margin-left: 400px;
+}
+.shop-local
+{
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+.shop-local h1
+{
+    font-size: 45px;
+    font-family: 'Sen', sans-serif;
+    overflow: hidden;
+}
+.shop-local p
+{
+    font-family: 'Sen', sans-serif;
+}
+.shop .box
+{
+    background-image: url('https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fe3910db4fde2e69f396_christiann-koepke-dQyS2pMYtok-unsplash%20(1).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 351px;
+    height: 415px;
+    border-radius: 5px;
+    position: absolute;
+    top: 12%;
+    left: -40%;
+}
+.last
+{
+    height: 200px;
+    width: 100%;
+    background-color: #222222;
+    margin-top: 30px;
+    padding: 10px 10%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.last img
+{
+    height: 50px;
+}
+.last .red
+{
+    color: red;
+    text-decoration: underline;
+}
+.last span
+{
+    font-family: 'Sen', sans-serif;
+}
+.last .icons i
+{
+    font-size: 30px;
+}

@@ -1,0 +1,509 @@
+@media(max-width:2000px)
+{
+    .shop
+    {
+        margin-left: 600px;
+    }
+}
+
+@media(max-width:1500px)
+{
+    .shop
+    {
+        margin-left: 400px;
+    }
+}
+
+@media(max-width:1200px)
+{
+    .navbar
+    {
+        height: auto;
+        padding: 10px 20px;
+    }
+    .navbar ul
+    {
+        margin-top: 0px;
+        align-items:center ;
+    }
+    .navbar ul li
+    {
+        padding: 10px 20px;
+    }
+    .center 
+    {
+        flex-wrap: wrap;
+        width: 100%;
+        /* align-items: center; */
+    }
+    .center .left span
+    {
+        font-size: 15px;
+    }
+    .center .right h1
+    {
+        font-size: 25px;
+    }
+    .center .right p
+    {
+        font-size:15px;
+    }   
+    .center .z
+    {
+        margin-top: 10px;
+    }
+    .centers
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        padding: 10px 20px;
+        justify-content: space-around;
+        /* justify-content: center; */
+    }
+    .centers p
+    {
+        width: 300px;
+    }
+    .image
+    {
+        width: 100%;
+        height: 500px;
+    }
+    .image .text h1
+    {
+        width: 80%;
+        font-size: 30x;
+        margin-bottom: 0px;
+        /* line-height: 30px; */
+    }
+    .image .text
+    {
+        width: 90%;
+    }
+    .image .text p
+    {
+        font-size: 20px;
+    }
+    .open span
+    {
+        font-size: 20px;
+    }
+    .open h1
+    {
+        font-size: 45px;
+    }
+    .t-box 
+    {
+        flex-wrap: wrap;
+        padding: 10px 20px;
+        justify-content: space-around;
+    }
+    .t-box .first
+    {
+        margin-bottom: 200px;
+    }
+    .t-box .second
+    {
+        margin-bottom: 50px;
+    }
+    .t-box .third
+    {
+        margin-bottom: 50px;
+    }
+    .shop
+    {
+        width: 50%;
+        margin-left: 400px;
+        height: 500px;
+    }
+    .shop-local
+    {
+        width: 70%;
+        margin-left: 20%;
+        overflow: hidden;
+    }
+    .shop .box
+    {
+        left: -50%;
+    }
+}
+
+
+@media  (max-width:1024px)
+{
+    .navbar
+    {
+        padding: 10px 20px;   
+    }
+    .navbar ul
+    {
+        margin-top: 0px;
+    }
+    .navbar ul li
+    {
+        padding: 10px 15px;
+    }
+    .center 
+    {
+        flex-wrap: wrap;
+        width: 100%;
+        /* align-items: center; */
+    }
+    .center .left span
+    {
+        font-size: 15px;
+    }
+    .center .right h1
+    {
+        font-size: 25px;
+    }
+    .center .right p
+    {
+        font-size:15px;
+    }   
+    .center .z
+    {
+        margin-top: 10px;
+    }
+    .centers
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        padding: 10px 20px;
+        /* justify-content: center; */
+    }
+    .centers p
+    {
+        width: 300px;
+    }
+    .image
+    {
+        width: 100%;
+        height: 400px;
+    }
+    .image .text h1
+    {
+        width: 80%;
+        font-size: 35x;
+        margin-bottom: 0px;
+        /* line-height: 30px; */
+    }
+    .image .text
+    {
+        width: 100%;
+    }
+    .image .text p
+    {
+        font-size: 18px;
+    }
+    .open span
+    {
+        font-size: 18px;
+    }
+    .open h1
+    {
+        font-size: 40px;
+    }
+    .t-box 
+    {
+        flex-wrap: wrap;
+        padding: 10px 20px;
+        justify-content: space-around;
+    }
+    .t-box .first
+    {
+        margin-bottom: 200px;
+    }
+    .t-box .second
+    {
+        margin-bottom: 50px;
+    }
+    .t-box .third
+    {
+        margin-bottom: 50px;
+    }
+    .shop
+    {
+        width: 50%;
+        margin-left: 300px;
+        height: 600px;
+    }
+    .shop-local
+    {
+        width: 70%;
+        margin-left: 20%;
+        overflow: hidden;
+    }
+    .shop .box
+    {
+        left: -50%;
+    }
+}
+
+
+
+@media(max-width:768px)
+{
+    .navbar
+    {
+        padding: 10px 5px;
+    }
+    .navbar ul
+    {
+        margin-top: 10px;
+    }
+    .navbar ul li
+    {
+        padding: 1% 10px;
+    }
+    .navbar ul li a
+    {
+        font-size:18px;
+    }
+    .img .text h1
+    {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom:20px;
+    }
+    .img .text 
+    {
+        width: 90%;
+    }
+    .img .text p
+    {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    
+    .center 
+    {
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+    }
+    .center .left span
+    {
+        font-size: 15px;
+    }
+    .center .right h1
+    {
+        font-size: 25px;
+    }
+    .center .right p
+    {
+        font-size:15px;
+    }   
+    .center .z
+    {
+        margin-top: 10px;
+    }
+    .centers
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .centers p
+    {
+        width: 300px;
+    }
+    .image
+    {
+        width: 100%;
+        height: 400px;
+    }
+    .image .text h1
+    {
+        width: 80%;
+        font-size: 30x;
+        margin-bottom: 0px;
+        /* line-height: 30px; */
+    }
+    .image .text
+    {
+        width: 100%;
+    }
+    .image .text p
+    {
+        font-size: 15px;
+    }
+    .open span
+    {
+        font-size: 15px;
+    }
+    .open h1
+    {
+        font-size: 35px;
+    }
+    .t-box 
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .t-box .first
+    {
+        margin-bottom: 200px;
+    }
+    .t-box .second
+    {
+        margin-bottom: 50px;
+    }
+    .t-box .third
+    {
+        margin-bottom: 50px;
+    }
+    .shop
+    {
+        width: 50%;
+        margin-left: 300px;
+        height: 670px;
+    }
+    .shop-local
+    {
+        width: 70%;
+        margin-left: 20%;
+        overflow: hidden;
+    }
+    .shop-local h1
+    {
+        overflow: hidden;
+    }
+    .shop .box
+    {
+        left: -70%;
+    }
+}
+
+
+@media(max-width:480px)
+{
+    .navbar
+    {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    .navbar ul
+    {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .img .text h1
+    {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom:20px;
+    }
+    .img .text 
+    {
+        width: 90%;
+    }
+    .img .text p
+    {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .center 
+    {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .center .left span
+    {
+        font-size: 15px;
+    }
+    .center .right h1
+    {
+        font-size: 25px;
+    }
+    .center .right p
+    {
+        font-size:15px;
+    }   
+    .centers
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .centers p
+    {
+        width: 300px;
+        padding: 0px;
+    }
+    .image
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .image .text h1
+    {
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 0px;
+        line-height: 25px;
+    }
+    .image .text
+    {
+        width: 100%;
+    }
+    .image .text p
+    {
+        font-size: 15px;
+    }
+    .open span
+    {
+        font-size: 12px;
+    }
+    .open h1
+    {
+        font-size: 30px;
+    }
+    .t-box 
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .t-box .first
+    {
+        margin-bottom: 200px;
+    }
+    .t-box .second
+    {
+        margin-bottom: 50px;
+    }
+    .t-box .third
+    {
+        margin-bottom: 50px;
+    }
+    .button
+    {
+        margin-bottom: 300px;
+    }
+    .shop 
+    {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        height: 750px;
+        padding: 0pxs;
+    }
+    .shop-local
+    {
+        width: 60%;
+    }
+    .shop .box
+    {
+        width: 170%;
+        position: absolute;
+        height: 300px;
+        top: -40%;
+    }
+    .last 
+    {
+        flex-direction: column;
+    }
+}

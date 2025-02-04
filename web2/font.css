@@ -1,0 +1,53 @@
+@keyframes slideDown { 
+  0% { max-height: 0px; }
+  100% { max-height: 250px; }
+}
+@keyframes fadeIn { 
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+* { cursor: default !important; }
+.__whatfont_basic { background: transparent; border: 0px solid black; inset: auto; box-shadow: none; clear: none; color: inherit; cursor: auto; float: none; font: inherit; height: auto; list-style: none; margin: 0px; max-height: none; max-width: none; overflow: visible; padding: 0px; position: static; text-align: inherit; text-decoration: none; text-indent: 0px; text-shadow: inherit; text-transform: none; visibility: visible; width: auto; z-index: auto; zoom: 1; -webkit-font-smoothing: antialiased; }
+.__whatfont_basic * { color: inherit; }
+.__whatfont_basic a, .__whatfont_basic a *, .__whatfont_basic a:visited .__whatfont_basic a:hover, .__whatfont_basic a:active { color: inherit; text-decoration: none; cursor: pointer !important; }
+.__whatfont_elem { background: rgba(0, 0, 0, 0.9); border-radius: 5px; color: rgb(255, 255, 255); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; font-size: 13px; line-height: 1.286; padding: 0px; z-index: 2147483647; }
+.__whatfont_button { background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(85, 85, 85)), color-stop(0.5, rgb(51, 51, 51)), color-stop(0.51, rgb(51, 51, 51)), to(rgb(34, 34, 34))); border: 1px solid rgb(0, 0, 0); border-radius: 5px; box-shadow: rgb(170, 170, 170) 0px 0px 1px inset, rgb(17, 17, 17) 0px 1px 0px; font-weight: 500; padding: 3px 6px; text-shadow: rgb(0, 0, 0) 0px 1px 0px; text-align: center; }
+.__whatfont_tip { display: none; font-weight: 500; line-height: 1; padding: 8px 10px; position: absolute; z-index: 2147483647; }
+.__whatfont_control { background: rgba(0, 0, 0, 0.8); cursor: pointer; font-weight: 500; padding: 8px 10px; position: fixed; right: 10px; top: 10px; transition: background 0.3s ease 0s; }
+.__whatfont_control:hover { background: rgb(0, 0, 0); }
+.__whatfont_help { color: rgb(238, 238, 238); font-size: 12px; }
+.__whatfont_help strong { font-weight: 500; }
+.__whatfont_panel { font-size: 14px; padding: 0px; position: absolute; width: 350px; z-index: 214748364; }
+.__whatfont_panel_title { color: rgb(255, 255, 255); font-size: 16px; padding: 20px 50px 20px 20px; position: relative; }
+.__whatfont_panel_title::before { border-style: solid; content: "."; display: block; height: 0px; position: absolute; text-indent: -30000px; width: 0px; }
+.__whatfont_panel_title::before { border-color: rgba(0, 0, 0, 0.9) transparent; border-width: 0px 7px 7px; left: 7px; top: -7px; }
+.__whatfont_close_button { font-size: 20px; bottom: 0px; cursor: pointer; display: inline-block; line-height: 22px; margin: 0px; height: 22px; padding: 1px; position: absolute; right: 20px; top: 16px; vertical-align: middle; }
+.__whatfont_close_button:hover { color: rgb(170, 170, 170); }
+.__whatfont_panel_content { overflow: hidden; animation: 0.4s ease 0s 1 normal none running slideDown; }
+.__whatfont_clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.__whatfont_panel_content .__whatfont_panel_label, .__whatfont_panel_content div.__whatfont_panel_label, .__whatfont_panel_content dt.__whatfont_panel_label { color: rgb(204, 204, 204); font-size: 12px; font-weight: 500; line-height: 1.5; }
+.__whatfont_panel_content ul.__whatfont_panel_properties > li { margin: 20px; padding: 0px; }
+.__whatfont_panel_content ul.__whatfont_panel_properties > li:first-child { margin-top: 0px; }
+.__whatfont_panel_content .__whatfont_panel_value, .__whatfont_panel_content div.__whatfont_panel_value, .__whatfont_panel_content dt.__whatfont_panel_value { font-weight: 500; text-shadow: black 0px 1px 0px; }
+.__whatfont_panel_content .__whatfont_fiu { background-image: linear-gradient(rgb(255, 255, 255) 50%, black 50%); background-position: 0px 16px; background-repeat: repeat-x; background-size: 1px 1px; }
+.__whatfont_panel_content .__whatfont_style_weight { display: flex; }
+.__whatfont_panel_content .__whatfont_style_weight > * { flex: 1 1 0%; }
+.__whatfont_panel_content .__whatfont_size_line_height_color { display: flex; }
+.__whatfont_panel_content .__whatfont_size { flex: 1 1 0%; }
+.__whatfont_panel_content .__whatfont_line_height { flex: 1 1 0%; }
+.__whatfont_panel_content .__whatfont_color { flex: 1 1 0%; }
+.__whatfont_panel_content .__whatfont_color_info_sample { display: inline-block; height: 18px; width: 18px; user-select: none; }
+.__whatfont_highlighted { cursor: default !important; }
+.__whatfont_panel dt.__whatfont_typeface { color: white; }
+.__whatfont_type_preview { font-size: 16px; overflow-x: scroll; }
+.__whatfont_type_preview::-webkit-scrollbar { height: 0px; width: 0px; background: transparent; }
+ul.__whatfont_font_service { display: inline-block; list-style-type: none; margin: 0px; padding: 0px; }
+ul.__whatfont_font_service li { display: inline-block; margin: 0px; padding: 0px; }
+.__whatfont_service_icon { color: inherit; display: inline-block; }
+.__whatfont_service_icon:hover { cursor: pointer; }
+.__whatfont_panel_content .__whatfont_panel_tools { color: white; font-size: 12px; line-height: 12px; margin: 20px; }
+.__whatfont_panel_content .__whatfont_panel_tools a { opacity: 0.7; transition: opacity 0.3s ease 0s; }
+.__whatfont_panel_content .__whatfont_panel_tools a:hover { opacity: 1; }
+.__whatfont_panel_content .__whatfont_panel_tools .__whatfont_panel_tools_left { float: left; width: 49.5%; }
+.__whatfont_panel_content .__whatfont_panel_tools .__whatfont_panel_tools_right { margin-left: 50%; text-align: right; }
+.__whatfont_panel_content .__whatfont_panel_tools .__whatfont_tweet_icon { background: url("img/tweet.svg") right top / contain no-repeat; display: inline-block; margin: 0px; padding-left: 22px; }

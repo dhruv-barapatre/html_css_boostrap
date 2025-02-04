@@ -1,0 +1,223 @@
+*{
+    font-family: 'Tondo', sans-serif;
+}
+.text-light{
+    color: white;
+}
+@font-face {
+    font-family: "Tondo Regular";
+    src: url("https://db.onlinewebfonts.com/t/d7ac6e38f11861ad6870df3ac328acd3.eot");
+    src: url("https://db.onlinewebfonts.com/t/d7ac6e38f11861ad6870df3ac328acd3.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/d7ac6e38f11861ad6870df3ac328acd3.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/d7ac6e38f11861ad6870df3ac328acd3.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/d7ac6e38f11861ad6870df3ac328acd3.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/d7ac6e38f11861ad6870df3ac328acd3.svg#Tondo Regular")format("svg");
+}
+.navbar-brand{
+    cursor: pointer;
+}
+.nev .nav-link
+{
+    transition: all 0.3s ;
+    color: black;
+}
+.nev .nav-link:hover{
+    color: red;
+     /* border-top: 4px solid red;  */
+}
+.nev .nav-link::before{
+    content: ' ';
+    height: 3px;
+    background-color: red;
+    display: block;
+    width: 100%;
+    margin-bottom: 7px;
+    /* position: absolute; */
+    /* transform-origin: top left center right; */
+    border-radius: 5px;
+    transform: scalex(0);
+    transition:  0.3s;
+}
+ .nev .nav-link:hover::before
+{
+    transform: scaleX(1);
+    transform-origin: top 0%;
+}
+.nev .dropdown-menu{
+    display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;
+    top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; 
+}
+.nev .dropdown:hover .dropdown-menu
+{
+    transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg);
+}
+/* .icones
+{
+
+} */
+.icones i
+{
+    font-size: 18px;
+}
+hr
+{
+    border-color: red;
+}
+.bg-dark-1 {
+    background-color: 
+    black;
+}
+.carousel h4
+{
+    font-size: 32px;
+}
+.carousel p{
+    font-size: 18px;
+}
+.recharge .nav-link {
+    color: black;
+    border: 1px solid #e3e5ff;
+    background-color: #e3e5ff;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.recharge .nav-link:hover{
+    border: 1px solid grey;
+}
+.recharge .nav .active
+{
+    background-color: black;
+}
+input{
+    border: blue;
+    padding: 10px 20px;
+    border: 1px solid blue;
+    outline-color: blue;
+    width: 30%;
+    text-align:left;
+    border-radius:10px ;
+}
+.tab-content .btn{
+    background-color: black;
+    color: white;
+    width: 30%;
+    /* padding:10px 15px ; */
+}
+.connection svg
+{
+    transform: scale(1.9);
+}
+.button .border
+{
+    border: 1px solid #e3e5ff;
+    padding: 20px 25px;
+    background-color: #e3e5ff;
+    border-radius: 50%;
+}
+.recommended .row{
+    width: 100%;
+}
+.recommended span{
+    font-size: 14px;
+    color: #ff4949;
+    font-weight: 700;
+}
+.recommended .first{
+    font-size: 20px;
+}
+.recommended .second{
+    font-size: 14px;
+    color: #696b6f;
+}
+.box-1{
+    /* width: 25%; */
+    background-color: white;
+}
+.best_plan li .nav-link{
+    /* transform: scaleX(); */
+    padding: 10px 60px;
+    background-color:#e3e5ff;
+    color: white;
+} 
+.box .list-unstyled li{
+    background-color: #E3E5FF;
+    margin: 10px 20px   ;
+    width: 65%;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: 0.5s ;
+    border: 1px solid #E3E5FF;
+}
+.box .list-unstyled li:hover{
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+}
+.best_plan{
+    background-image: url('https://assets.airtel.in/static-assets/home-recast/images/conversational-widget-bg-web.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+.for .row p{
+    font-size: 16px;
+}
+.for .row .second{
+    font-size: 12px;
+    color: #696b6f;
+}
+.text .row li a{
+    text-decoration: none;
+    transition:all  0.3s;
+    color:gray;
+    font-size: 12px;
+}
+.text .row li a:hover{
+    color: red;
+}
+.text .row li .head{
+    color: black;
+}
+.text .row svg{
+    transform: scale(2);
+    
+}
+.text .row .get svg{
+    transform: scale(4);  
+}
+.text .row .first .col-3 i{
+    background-color: black;
+    color: white;
+    padding: 2px 4px;
+    margin: 2px 4px;
+}
+.bottom hr{
+    margin:0;
+}
+.navbar .row{
+    width: 100%;
+}
+.btn-pagal{
+    width: max-content;
+}
+span .bi-list{
+    font-size: 22px;
+}
+.offcanvas-body .nav-link{
+    color:black;
+    transition: 0.5s ;
+}
+.offcanvas-body .nav-link:hover{
+    color:red;
+}
+@media (min-width:767px){
+    .recharge .tab-content input{
+        width: 100%;
+    }
+}
+.recommended .row{
+    width: 100%;
+}
