@@ -9,7 +9,7 @@ Welcome to Airtel Clone, a modern and fully responsive website built using HTML,
 ✅ Uses Bootstrap’s grid system and custom media queries for layout
 ✅ Lightweight and fast loading 🚀
 
-📸 Screenshots
+📸 Screenshots <br><br>
 <img src="https://github.com/user-attachments/assets/6abdc25b-a055-4991-a1f7-bc76560d68cb" alt="Acme Website" width="500px">
 
 
