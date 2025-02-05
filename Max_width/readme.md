@@ -12,7 +12,7 @@ Welcome to **Acme**, a modern and fully responsive website built using **HTML, C
 
 ## 📸 Screenshots  
 ![Beige New Product Mockup Now Available Facebook Post](https://github.com/user-attachments/assets/c66bdf7f-f82d-4903-8380-6f6df5d5ad94)
-
+<img src="https://github.com/user-attachments/assets/c66bdf7f-f82d-4903-8380-6f6df5d5ad94" alt="Acme Website" width="600px">
 ## 🎥 Demo Video  
 https://github.com/user-attachments/assets/58e48711-beac-484f-b421-6514d3f62fdc
 
@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/58e48711-beac-484f-b421-6514d3f62fdc
 
 ## 📂 Project Structure  
 📁 max-width <br>
-┃ ┗ media.css
-┣ 📄 index.html
-┃  ┗ styles.css
+┃ ┗ media.css <br>
+┣ 📄 index.html <br>
+┃  ┗ styles.css <br>
 ┣ 📄 README.md
