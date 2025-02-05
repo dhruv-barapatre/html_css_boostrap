@@ -15,7 +15,7 @@ Welcome to **Acme**, a modern and fully responsive website built using **HTML, C
 ## 🎥 Demo Video  
 https://github.com/user-attachments/assets/58e48711-beac-484f-b421-6514d3f62fdc
 
-<box style="width: 500px;overflow: hidden;">https://github.com/user-attachments/assets/58e48711-beac-484f-b421-6514d3f62fdc</box>
+https://github.com/user-attachments/assets/58e48711-beac-484f-b421-6514d3f62fdc
 <video width="500" controls>
   <source src="https://github.com/user-attachments/assets/58e48711-beac-484f-b421-6514d3f62fdc" type="video/mp4">
 </video>
