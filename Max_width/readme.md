@@ -26,12 +26,8 @@ https://github.com/user-attachments/assets/58e48711-beac-484f-b421-6514d3f62fdc
 
 
 ## 📂 Project Structure  
-📁 acme-website
-┣ 📁 assets
-┃ ┣ 📁 images
-┃ ┣ 📁 css
-┃ ┃ ┗ styles.css
-┃ ┗ 📁 js
-┃ ┃ ┗ script.js
+📁 max-width <br>
+┃ ┗ media.css
 ┣ 📄 index.html
+┃  ┗ styles.css
 ┣ 📄 README.md
