@@ -43,7 +43,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5px 10%;
-    position: relative;
+    /* position: relative; */
 }
 .img .text
 {
