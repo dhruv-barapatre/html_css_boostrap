@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/airtel", "destination": "/Airtel/index.html" },
+    { "source": "/airtel", "dest": "/Airtel/index.html" },
     {
       "source": "/portfollio",
       "destination": "/Bootstrap-portfollio-template/index.html"
