@@ -1,8 +1,14 @@
 {
-    "rewrites": [
-      { "source": "/about", "destination": "/about/index.html" },
-      { "source": "/contact", "destination": "/contact/index.html" },
-      { "source": "/services", "destination": "/services/index.html" }
-    ]
-  }
-  
+  "rewrites": [
+    { "source": "/airtel", "destination": "/Airtel/index.html" },
+    {
+      "source": "/portfollio",
+      "destination": "/Bootstrap-portfollio-template/index.html"
+    },
+    { "source": "/acma", "destination": "/Max_width/index.html" },
+    { "source": "/responsive", "destination": "/new-home-page/index.html" },
+    { "source": "/phoenix", "destination": "/Phoenix/index.html" },
+    { "source": "/logo", "destination": "/project/index.html" },
+    { "source": "/scaffold", "destination": "/web2/index.html" }
+  ]
+}
